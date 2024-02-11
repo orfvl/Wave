@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "graphics",
+					"jsonFile" : "directory-graphics-Debug-cfad82a9484b3a41fe77.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "graphics",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Wave",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Wave::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Wave-Debug-d855ac3826d7faed1dc9.json",
+					"name" : "Wave",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "resource_manager::@708b9b26fb9b6631b242",
+					"jsonFile" : "target-resource_manager-Debug-60dd73ad2cc655867829.json",
+					"name" : "resource_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "shader::@708b9b26fb9b6631b242",
+					"jsonFile" : "target-shader-Debug-7f79a8e2df3d5bd66d59.json",
+					"name" : "shader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "stb_image::@708b9b26fb9b6631b242",
+					"jsonFile" : "target-stb_image-Debug-e489ae17e7ff17f5da00.json",
+					"name" : "stb_image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "textRenderer::@708b9b26fb9b6631b242",
+					"jsonFile" : "target-textRenderer-Debug-06677c59e85f47fee47b.json",
+					"name" : "textRenderer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "texture::@708b9b26fb9b6631b242",
+					"jsonFile" : "target-texture-Debug-ad2d9eb36506ed0762ec.json",
+					"name" : "texture",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/oscar/Documents/Informatik/wave/build",
+		"source" : "/home/oscar/Documents/Informatik/wave"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

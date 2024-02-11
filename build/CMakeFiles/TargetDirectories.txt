@@ -1,0 +1,10 @@
+/home/oscar/Documents/Informatik/wave/build/CMakeFiles/Wave.dir
+/home/oscar/Documents/Informatik/wave/build/CMakeFiles/edit_cache.dir
+/home/oscar/Documents/Informatik/wave/build/CMakeFiles/rebuild_cache.dir
+/home/oscar/Documents/Informatik/wave/build/graphics/CMakeFiles/shader.dir
+/home/oscar/Documents/Informatik/wave/build/graphics/CMakeFiles/texture.dir
+/home/oscar/Documents/Informatik/wave/build/graphics/CMakeFiles/stb_image.dir
+/home/oscar/Documents/Informatik/wave/build/graphics/CMakeFiles/resource_manager.dir
+/home/oscar/Documents/Informatik/wave/build/graphics/CMakeFiles/textRenderer.dir
+/home/oscar/Documents/Informatik/wave/build/graphics/CMakeFiles/edit_cache.dir
+/home/oscar/Documents/Informatik/wave/build/graphics/CMakeFiles/rebuild_cache.dir
