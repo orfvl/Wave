@@ -395,7 +395,7 @@ freetype_DIR:PATH=/home/oscar/Documents/Informatik/wave/build/vcpkg_installed/x6
 glfw3_DIR:PATH=/home/oscar/Documents/Informatik/wave/build/vcpkg_installed/x64-linux/share/glfw3
 
 //Dependencies for the target
-graphics_manager_LIB_DEPENDS:STATIC=general;GLEW::GLEW;general;glfw;general;shader;general;resource_manager;general;textRenderer;
+graphics_manager_LIB_DEPENDS:STATIC=general;GLEW::GLEW;general;glfw;general;texture;general;shader;general;resource_manager;general;textRenderer;
 
 //Dependencies for the target
 resource_manager_LIB_DEPENDS:STATIC=general;GLEW::GLEW;general;texture;general;shader;general;stb_image;

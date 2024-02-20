@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/oscar/Documents/Informatik/wave/build -I/home/oscar/Documents/Informatik/wave/graphics/texture -I/home/oscar/Documents/Informatik/wave/graphics/shader -I/home/oscar/Documents/Informatik/wave/graphics/resource_manager -I/home/oscar/Documents/Informatik/wave/graphics/textRenderer -I/home/oscar/Documents/Informatik/wave/graphics/stb_image -isystem /home/oscar/Documents/Informatik/wave/build/vcpkg_installed/x64-linux/include
+CXX_INCLUDES = -I/home/oscar/Documents/Informatik/wave/build -I/home/oscar/Documents/Informatik/wave/graphics/graphics_manager -I/home/oscar/Documents/Informatik/wave/graphics/texture -I/home/oscar/Documents/Informatik/wave/graphics/shader -I/home/oscar/Documents/Informatik/wave/graphics/resource_manager -I/home/oscar/Documents/Informatik/wave/graphics/textRenderer -isystem /home/oscar/Documents/Informatik/wave/build/vcpkg_installed/x64-linux/include
 
 CXX_FLAGS = -g -std=gnu++23
 

@@ -26,9 +26,9 @@ void GraphicsManager::init()
         // return -1;
     }
     glfwMakeContextCurrent(window);
-    framebuffer_size_callback(window, SCR_width, SCR_height);
+    framebuffer_size_callback();
     glewExperimental = GL_TRUE;
-    if (!glewInit())
+    if (glewInit() != GLEW_OK)
     {
         std::cerr << "Failed to initialize GLEW" << std::endl;
         exit(EXIT_FAILURE);
@@ -36,7 +36,7 @@ void GraphicsManager::init()
 
       // build and compile our shader program
     // ------------------------------------
-    
+    ourShader = ResourceManager::LoadShader("shader.vs", "shader.fs", nullptr, "wave");
      ourShader.Use();
 
    
@@ -67,7 +67,7 @@ void GraphicsManager::init()
     
 }
 
-void GraphicsManager::framebuffer_size_callback(GLFWwindow* window, int width, int height)
+void GraphicsManager::framebuffer_size_callback()
 {
     // make sure the viewport matches the new window dimensions; note that width and 
     // height will be significantly larger than specified on retina displays.
@@ -118,7 +118,10 @@ void GraphicsManager::processInput()
 
 }
 
-
+bool GraphicsManager::shoulCloseWindow()
+{
+    return glfwWindowShouldClose(window);
+}
 GraphicsManager::~GraphicsManager()
 {
     glfwTerminate();

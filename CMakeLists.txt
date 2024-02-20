@@ -27,15 +27,9 @@ target_link_libraries(Wave PRIVATE GLEW::GLEW)
 target_link_libraries(Wave PRIVATE OpenGL::OpenGL OpenGL::EGL)
 
 add_subdirectory(graphics)
-target_link_libraries(Wave PUBLIC shader)
-target_link_libraries(Wave PUBLIC texture)
-target_link_libraries(Wave PUBLIC resource_manager)
-target_link_libraries(Wave PRIVATE textRenderer)
+target_link_libraries(Wave PRIVATE graphics_manager)
 target_include_directories(Wave PUBLIC
                           "${PROJECT_BINARY_DIR}"
-                          "${PROJECT_SOURCE_DIR}/graphics/texture"
-                          "${PROJECT_SOURCE_DIR}/graphics/shader"
-                          "${PROJECT_SOURCE_DIR}/graphics/resource_manager"
-                          "${PROJECT_SOURCE_DIR}/graphics/textRenderer"
+                          "${PROJECT_SOURCE_DIR}/graphics/graphics_manager"
                           )
     

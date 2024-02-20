@@ -110,6 +110,7 @@ CMakeFiles/Wave.dir/all: graphics/CMakeFiles/texture.dir/all
 CMakeFiles/Wave.dir/all: graphics/CMakeFiles/stb_image.dir/all
 CMakeFiles/Wave.dir/all: graphics/CMakeFiles/resource_manager.dir/all
 CMakeFiles/Wave.dir/all: graphics/CMakeFiles/textRenderer.dir/all
+CMakeFiles/Wave.dir/all: graphics/CMakeFiles/graphics_manager.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Wave.dir/build.make CMakeFiles/Wave.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Wave.dir/build.make CMakeFiles/Wave.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/oscar/Documents/Informatik/wave/build/CMakeFiles --progress-num=1,2 "Built target Wave"
@@ -117,7 +118,7 @@ CMakeFiles/Wave.dir/all: graphics/CMakeFiles/textRenderer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Wave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/Documents/Informatik/wave/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/Documents/Informatik/wave/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Wave.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/Documents/Informatik/wave/build/CMakeFiles 0
 .PHONY : CMakeFiles/Wave.dir/rule

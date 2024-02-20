@@ -223,8 +223,6 @@ CMakeFiles/Wave.dir/wave.cpp.o: \
  /usr/include/c++/13.2.1/bits/stl_bvector.h \
  /usr/include/c++/13.2.1/bits/vector.tcc /usr/include/c++/13.2.1/iostream \
  /usr/include/c++/13.2.1/istream /usr/include/c++/13.2.1/bits/istream.tcc \
- /usr/include/GL/glew.h /usr/include/GL/glu.h /usr/include/GL/gl.h \
- /home/oscar/Documents/Informatik/wave/build/vcpkg_installed/x64-linux/include/GLFW/glfw3.h \
  /usr/include/c++/13.2.1/chrono /usr/include/c++/13.2.1/bits/chrono.h \
  /usr/include/c++/13.2.1/ratio /usr/include/c++/13.2.1/ctime \
  /usr/include/c++/13.2.1/sstream /usr/include/c++/13.2.1/bits/sstream.tcc \
@@ -241,6 +239,9 @@ CMakeFiles/Wave.dir/wave.cpp.o: \
  /usr/include/c++/13.2.1/random /usr/include/c++/13.2.1/bits/random.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
  /usr/include/c++/13.2.1/bits/random.tcc \
+ /home/oscar/Documents/Informatik/wave/graphics/graphics_manager/graphics_manager.hpp \
+ /usr/include/GL/glew.h /usr/include/GL/glu.h /usr/include/GL/gl.h \
+ /home/oscar/Documents/Informatik/wave/build/vcpkg_installed/x64-linux/include/GLFW/glfw3.h \
  /home/oscar/Documents/Informatik/wave/graphics/shader/shader.h \
  /usr/include/glm/glm.hpp /usr/include/glm/detail/_fixes.hpp \
  /usr/include/glm/detail/setup.hpp /usr/include/c++/13.2.1/cassert \

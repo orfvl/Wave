@@ -119,7 +119,6 @@ graphics/CMakeFiles/resource_manager.dir/resource_manager/resource_manager.cpp.o
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/GL/glu.h /usr/include/GL/gl.h \
- /home/oscar/Documents/Informatik/wave/graphics/texture/texture.h \
  /home/oscar/Documents/Informatik/wave/graphics/shader/shader.h \
  /usr/include/glm/glm.hpp /usr/include/glm/detail/_fixes.hpp \
  /usr/include/c++/13.2.1/cmath /usr/include/math.h \
@@ -309,6 +308,7 @@ graphics/CMakeFiles/resource_manager.dir/resource_manager/resource_manager.cpp.o
  /usr/include/glm/ext/vector_uint1_sized.hpp \
  /usr/include/c++/13.2.1/cstring /usr/include/string.h \
  /usr/include/strings.h /usr/include/glm/gtc/type_ptr.inl \
+ /home/oscar/Documents/Informatik/wave/graphics/texture/texture.h \
  /usr/include/c++/13.2.1/iostream /usr/include/c++/13.2.1/ostream \
  /usr/include/c++/13.2.1/ios /usr/include/c++/13.2.1/exception \
  /usr/include/c++/13.2.1/bits/exception_ptr.h \

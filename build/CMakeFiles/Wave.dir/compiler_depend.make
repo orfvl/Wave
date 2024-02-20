@@ -6,6 +6,7 @@ CMakeFiles/Wave.dir/wave.cpp.o: /home/oscar/Documents/Informatik/wave/wave.cpp \
   vcpkg_installed/x64-linux/include/fmt/core.h \
   vcpkg_installed/x64-linux/include/fmt/format.h \
   vcpkg_installed/x64-linux/include/fmt/ranges.h \
+  /home/oscar/Documents/Informatik/wave/graphics/graphics_manager/graphics_manager.hpp \
   /home/oscar/Documents/Informatik/wave/graphics/resource_manager/resource_manager.h \
   /home/oscar/Documents/Informatik/wave/graphics/shader/shader.h \
   /home/oscar/Documents/Informatik/wave/graphics/textRenderer/textRenderer.h \
@@ -847,6 +848,10 @@ CMakeFiles/Wave.dir/wave.cpp.o: /home/oscar/Documents/Informatik/wave/wave.cpp \
 
 /usr/include/c++/13.2.1/pstl/pstl_config.h:
 
+/usr/include/ctype.h:
+
+/usr/include/c++/13.2.1/pstl/glue_numeric_defs.h:
+
 /usr/include/glm/ext/vector_int4_sized.hpp:
 
 /usr/include/c++/13.2.1/bits/cxxabi_forced.h:
@@ -1141,17 +1146,19 @@ vcpkg_installed/x64-linux/include/fmt/format.h:
 
 /usr/include/c++/13.2.1/cwchar:
 
+/usr/include/glm/ext/vector_bool4_precision.hpp:
+
+/usr/include/alloca.h:
+
+/usr/include/glm/ext/matrix_float4x4.hpp:
+
+/usr/include/c++/13.2.1/cstdio:
+
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
-/usr/include/asm-generic/errno.h:
+/usr/include/c++/13.2.1/algorithm:
 
-/usr/include/bits/fp-logb.h:
-
-/usr/include/c++/13.2.1/bits/ranges_util.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/bits/floatn.h:
+/home/oscar/Documents/Informatik/wave/graphics/texture/texture.h:
 
 /usr/include/c++/13.2.1/bits/allocated_ptr.h:
 
@@ -1167,17 +1174,15 @@ vcpkg_installed/x64-linux/include/fmt/format.h:
 
 /usr/include/c++/13.2.1/bits/memoryfwd.h:
 
-/usr/include/c++/13.2.1/algorithm:
+/usr/include/asm-generic/errno.h:
 
-/home/oscar/Documents/Informatik/wave/graphics/texture/texture.h:
+/usr/include/bits/fp-logb.h:
 
-/usr/include/glm/ext/vector_bool4_precision.hpp:
+/usr/include/c++/13.2.1/bits/ranges_util.h:
 
-/usr/include/alloca.h:
+/usr/include/asm-generic/errno-base.h:
 
-/usr/include/glm/ext/matrix_float4x4.hpp:
-
-/usr/include/c++/13.2.1/cstdio:
+/usr/include/bits/floatn.h:
 
 /usr/include/c++/13.2.1/bits/atomic_base.h:
 
@@ -1207,6 +1212,14 @@ vcpkg_installed/x64-linux/include/fmt/format.h:
 
 /home/oscar/Documents/Informatik/wave/wave.cpp:
 
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/c++/13.2.1/bits/algorithmfwd.h:
+
+/usr/include/c++/13.2.1/bits/ptr_traits.h:
+
+/usr/include/bits/types/time_t.h:
+
 /usr/include/bits/mathcalls-narrow.h:
 
 /usr/include/c++/13.2.1/backward/binders.h:
@@ -1226,6 +1239,10 @@ vcpkg_installed/x64-linux/include/fmt/format.h:
 vcpkg_installed/x64-linux/include/fmt/core.h:
 
 /usr/include/c++/13.2.1/bits/ranges_base.h:
+
+/usr/include/c++/13.2.1/bits/stl_numeric.h:
+
+/usr/include/c++/13.2.1/charconv:
 
 /usr/include/wctype.h:
 
@@ -1311,18 +1328,6 @@ vcpkg_installed/x64-linux/include/fmt/core.h:
 
 /usr/include/bits/types/__FILE.h:
 
-/usr/include/bits/types/struct_timespec.h:
-
-/usr/include/c++/13.2.1/bits/algorithmfwd.h:
-
-/usr/include/c++/13.2.1/bits/ptr_traits.h:
-
-/usr/include/bits/types/time_t.h:
-
-/usr/include/c++/13.2.1/charconv:
-
-/usr/include/c++/13.2.1/bits/stl_numeric.h:
-
 /usr/include/glm/ext/vector_uint1_sized.hpp:
 
 /usr/include/glm/ext/vector_float2.hpp:
@@ -1380,6 +1385,8 @@ vcpkg_installed/x64-linux/include/fmt/core.h:
 /usr/include/glm/detail/func_vector_relational.inl:
 
 /usr/include/c++/13.2.1/bits/move.h:
+
+/home/oscar/Documents/Informatik/wave/graphics/graphics_manager/graphics_manager.hpp:
 
 /usr/include/c++/13.2.1/bits/stl_iterator_base_types.h:
 
@@ -1552,7 +1559,3 @@ vcpkg_installed/x64-linux/include/fmt/core.h:
 /usr/include/bits/types/__locale_t.h:
 
 /usr/include/c++/13.2.1/ostream:
-
-/usr/include/ctype.h:
-
-/usr/include/c++/13.2.1/pstl/glue_numeric_defs.h:

@@ -18,8 +18,10 @@ public:
     ~GraphicsManager();
     void init();
     void processInput();
+    bool shoulCloseWindow();
     template<typename T>
     void render(T  moved_points);
+    double gameTimeFactor = 1;
 
 private:
     int SCR_width = 1000;
@@ -74,17 +76,17 @@ private:
         -0.5f,  0.5f, -0.5f
     };
     unsigned int VBO, VAO;
-    
-    Shader ourShader = ResourceManager::LoadShader("shader.vs", "shader.fs", nullptr, "wave");
+
+    Shader ourShader;
     TextRenderer  *Text;
     
     float distanceCamera = 45.0;
     float angleRotateXachsis = 0.0;
-    double gameTimeFactor = 1;
+    
     float angleRotateYachsis = 0.0;
 
    
-    void framebuffer_size_callback(GLFWwindow* window, int width, int height);
+    void framebuffer_size_callback();
 };
 
 template<typename T>
