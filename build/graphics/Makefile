@@ -186,6 +186,44 @@ textRenderer/fast:
 	cd /home/oscar/Documents/Informatik/wave/build && $(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/textRenderer.dir/build.make graphics/CMakeFiles/textRenderer.dir/build
 .PHONY : textRenderer/fast
 
+# Convenience name for target.
+graphics/CMakeFiles/graphics_manager.dir/rule:
+	cd /home/oscar/Documents/Informatik/wave/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 graphics/CMakeFiles/graphics_manager.dir/rule
+.PHONY : graphics/CMakeFiles/graphics_manager.dir/rule
+
+# Convenience name for target.
+graphics_manager: graphics/CMakeFiles/graphics_manager.dir/rule
+.PHONY : graphics_manager
+
+# fast build rule for target.
+graphics_manager/fast:
+	cd /home/oscar/Documents/Informatik/wave/build && $(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/graphics_manager.dir/build.make graphics/CMakeFiles/graphics_manager.dir/build
+.PHONY : graphics_manager/fast
+
+graphics_manager/graphics_manager.o: graphics_manager/graphics_manager.cpp.o
+.PHONY : graphics_manager/graphics_manager.o
+
+# target to build an object file
+graphics_manager/graphics_manager.cpp.o:
+	cd /home/oscar/Documents/Informatik/wave/build && $(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/graphics_manager.dir/build.make graphics/CMakeFiles/graphics_manager.dir/graphics_manager/graphics_manager.cpp.o
+.PHONY : graphics_manager/graphics_manager.cpp.o
+
+graphics_manager/graphics_manager.i: graphics_manager/graphics_manager.cpp.i
+.PHONY : graphics_manager/graphics_manager.i
+
+# target to preprocess a source file
+graphics_manager/graphics_manager.cpp.i:
+	cd /home/oscar/Documents/Informatik/wave/build && $(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/graphics_manager.dir/build.make graphics/CMakeFiles/graphics_manager.dir/graphics_manager/graphics_manager.cpp.i
+.PHONY : graphics_manager/graphics_manager.cpp.i
+
+graphics_manager/graphics_manager.s: graphics_manager/graphics_manager.cpp.s
+.PHONY : graphics_manager/graphics_manager.s
+
+# target to generate assembly for a file
+graphics_manager/graphics_manager.cpp.s:
+	cd /home/oscar/Documents/Informatik/wave/build && $(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/graphics_manager.dir/build.make graphics/CMakeFiles/graphics_manager.dir/graphics_manager/graphics_manager.cpp.s
+.PHONY : graphics_manager/graphics_manager.cpp.s
+
 resource_manager/resource_manager.o: resource_manager/resource_manager.cpp.o
 .PHONY : resource_manager/resource_manager.o
 
@@ -314,11 +352,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... graphics_manager"
 	@echo "... resource_manager"
 	@echo "... shader"
 	@echo "... stb_image"
 	@echo "... textRenderer"
 	@echo "... texture"
+	@echo "... graphics_manager/graphics_manager.o"
+	@echo "... graphics_manager/graphics_manager.i"
+	@echo "... graphics_manager/graphics_manager.s"
 	@echo "... resource_manager/resource_manager.o"
 	@echo "... resource_manager/resource_manager.i"
 	@echo "... resource_manager/resource_manager.s"

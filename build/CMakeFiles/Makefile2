@@ -85,6 +85,7 @@ graphics/all: graphics/CMakeFiles/texture.dir/all
 graphics/all: graphics/CMakeFiles/stb_image.dir/all
 graphics/all: graphics/CMakeFiles/resource_manager.dir/all
 graphics/all: graphics/CMakeFiles/textRenderer.dir/all
+graphics/all: graphics/CMakeFiles/graphics_manager.dir/all
 .PHONY : graphics/all
 
 # Recursive "preinstall" directory target.
@@ -97,6 +98,7 @@ graphics/clean: graphics/CMakeFiles/texture.dir/clean
 graphics/clean: graphics/CMakeFiles/stb_image.dir/clean
 graphics/clean: graphics/CMakeFiles/resource_manager.dir/clean
 graphics/clean: graphics/CMakeFiles/textRenderer.dir/clean
+graphics/clean: graphics/CMakeFiles/graphics_manager.dir/clean
 .PHONY : graphics/clean
 
 #=============================================================================
@@ -136,7 +138,7 @@ CMakeFiles/Wave.dir/clean:
 graphics/CMakeFiles/shader.dir/all:
 	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/shader.dir/build.make graphics/CMakeFiles/shader.dir/depend
 	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/shader.dir/build.make graphics/CMakeFiles/shader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/oscar/Documents/Informatik/wave/build/CMakeFiles --progress-num=5,6 "Built target shader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/oscar/Documents/Informatik/wave/build/CMakeFiles --progress-num=7,8 "Built target shader"
 .PHONY : graphics/CMakeFiles/shader.dir/all
 
 # Build rule for subdir invocation for target.
@@ -162,7 +164,7 @@ graphics/CMakeFiles/shader.dir/clean:
 graphics/CMakeFiles/texture.dir/all:
 	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/texture.dir/build.make graphics/CMakeFiles/texture.dir/depend
 	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/texture.dir/build.make graphics/CMakeFiles/texture.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/oscar/Documents/Informatik/wave/build/CMakeFiles --progress-num=11,12 "Built target texture"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/oscar/Documents/Informatik/wave/build/CMakeFiles --progress-num=13,14 "Built target texture"
 .PHONY : graphics/CMakeFiles/texture.dir/all
 
 # Build rule for subdir invocation for target.
@@ -188,7 +190,7 @@ graphics/CMakeFiles/texture.dir/clean:
 graphics/CMakeFiles/stb_image.dir/all:
 	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/stb_image.dir/build.make graphics/CMakeFiles/stb_image.dir/depend
 	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/stb_image.dir/build.make graphics/CMakeFiles/stb_image.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/oscar/Documents/Informatik/wave/build/CMakeFiles --progress-num=7,8 "Built target stb_image"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/oscar/Documents/Informatik/wave/build/CMakeFiles --progress-num=9,10 "Built target stb_image"
 .PHONY : graphics/CMakeFiles/stb_image.dir/all
 
 # Build rule for subdir invocation for target.
@@ -216,7 +218,7 @@ graphics/CMakeFiles/resource_manager.dir/all: graphics/CMakeFiles/texture.dir/al
 graphics/CMakeFiles/resource_manager.dir/all: graphics/CMakeFiles/stb_image.dir/all
 	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/resource_manager.dir/build.make graphics/CMakeFiles/resource_manager.dir/depend
 	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/resource_manager.dir/build.make graphics/CMakeFiles/resource_manager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/oscar/Documents/Informatik/wave/build/CMakeFiles --progress-num=3,4 "Built target resource_manager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/oscar/Documents/Informatik/wave/build/CMakeFiles --progress-num=5,6 "Built target resource_manager"
 .PHONY : graphics/CMakeFiles/resource_manager.dir/all
 
 # Build rule for subdir invocation for target.
@@ -245,7 +247,7 @@ graphics/CMakeFiles/textRenderer.dir/all: graphics/CMakeFiles/stb_image.dir/all
 graphics/CMakeFiles/textRenderer.dir/all: graphics/CMakeFiles/resource_manager.dir/all
 	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/textRenderer.dir/build.make graphics/CMakeFiles/textRenderer.dir/depend
 	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/textRenderer.dir/build.make graphics/CMakeFiles/textRenderer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/oscar/Documents/Informatik/wave/build/CMakeFiles --progress-num=9,10 "Built target textRenderer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/oscar/Documents/Informatik/wave/build/CMakeFiles --progress-num=11,12 "Built target textRenderer"
 .PHONY : graphics/CMakeFiles/textRenderer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -263,6 +265,36 @@ textRenderer: graphics/CMakeFiles/textRenderer.dir/rule
 graphics/CMakeFiles/textRenderer.dir/clean:
 	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/textRenderer.dir/build.make graphics/CMakeFiles/textRenderer.dir/clean
 .PHONY : graphics/CMakeFiles/textRenderer.dir/clean
+
+#=============================================================================
+# Target rules for target graphics/CMakeFiles/graphics_manager.dir
+
+# All Build rule for target.
+graphics/CMakeFiles/graphics_manager.dir/all: graphics/CMakeFiles/shader.dir/all
+graphics/CMakeFiles/graphics_manager.dir/all: graphics/CMakeFiles/texture.dir/all
+graphics/CMakeFiles/graphics_manager.dir/all: graphics/CMakeFiles/stb_image.dir/all
+graphics/CMakeFiles/graphics_manager.dir/all: graphics/CMakeFiles/resource_manager.dir/all
+graphics/CMakeFiles/graphics_manager.dir/all: graphics/CMakeFiles/textRenderer.dir/all
+	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/graphics_manager.dir/build.make graphics/CMakeFiles/graphics_manager.dir/depend
+	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/graphics_manager.dir/build.make graphics/CMakeFiles/graphics_manager.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/oscar/Documents/Informatik/wave/build/CMakeFiles --progress-num=3,4 "Built target graphics_manager"
+.PHONY : graphics/CMakeFiles/graphics_manager.dir/all
+
+# Build rule for subdir invocation for target.
+graphics/CMakeFiles/graphics_manager.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/Documents/Informatik/wave/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 graphics/CMakeFiles/graphics_manager.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/Documents/Informatik/wave/build/CMakeFiles 0
+.PHONY : graphics/CMakeFiles/graphics_manager.dir/rule
+
+# Convenience name for target.
+graphics_manager: graphics/CMakeFiles/graphics_manager.dir/rule
+.PHONY : graphics_manager
+
+# clean rule for target.
+graphics/CMakeFiles/graphics_manager.dir/clean:
+	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/graphics_manager.dir/build.make graphics/CMakeFiles/graphics_manager.dir/clean
+.PHONY : graphics/CMakeFiles/graphics_manager.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

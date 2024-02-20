@@ -1,7 +1,10 @@
+find_package(glfw3 CONFIG REQUIRED)
+find_package(GLEW 2.2.0 REQUIRED)
+
 add_library(shader shader/shader.h shader/shader.cpp)
 
 set_target_properties(shader PROPERTIES LINKER_LANGUAGE CXX)
-find_package(GLEW 2.2.0 REQUIRED)
+
 target_link_libraries(shader PUBLIC GLEW::GLEW)
 
 # set(OpenGL_GL_PREFERENCE GLVND)
@@ -50,6 +53,18 @@ target_include_directories(textRenderer PUBLIC
                           "${PROJECT_SOURCE_DIR}/graphics/resource_manager"
                           )
 
+
+add_library(graphics_manager graphics_manager/graphics_manager.hpp graphics_manager/graphics_manager.cpp)
+set_target_properties(graphics_manager PROPERTIES LINKER_LANGUAGE CXX)
+target_link_libraries(graphics_manager PRIVATE GLEW::GLEW)
+target_link_libraries(graphics_manager PRIVATE glfw)
+target_link_libraries(graphics_manager PRIVATE shader resource_manager textRenderer)
+target_include_directories(graphics_manager PUBLIC
+                        "${PROJECT_BINARY_DIR}"
+                        "${PROJECT_SOURCE_DIR}/graphics/shader"
+                        "${PROJECT_SOURCE_DIR}/graphics/resource_manager"
+                        "${PROJECT_SOURCE_DIR}/graphics/textRenderer"
+                        )
 
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/textRenderer/text_shader/text_shader.fs
 ${PROJECT_BINARY_DIR} COPYONLY)

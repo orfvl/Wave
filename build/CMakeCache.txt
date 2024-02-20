@@ -230,8 +230,8 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 //Path to a program.
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/oscar/Documents/Informatik/wave/vcpkg/scripts/buildsystems/vcpkg.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/home/oscar/Documents/Informatik/wave/vcpkg/scripts/buildsystems/vcpkg.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -393,6 +393,9 @@ freetype_DIR:PATH=/home/oscar/Documents/Informatik/wave/build/vcpkg_installed/x6
 
 //The directory containing a CMake configuration file for glfw3.
 glfw3_DIR:PATH=/home/oscar/Documents/Informatik/wave/build/vcpkg_installed/x64-linux/share/glfw3
+
+//Dependencies for the target
+graphics_manager_LIB_DEPENDS:STATIC=general;GLEW::GLEW;general;glfw;general;shader;general;resource_manager;general;textRenderer;
 
 //Dependencies for the target
 resource_manager_LIB_DEPENDS:STATIC=general;GLEW::GLEW;general;texture;general;shader;general;stb_image;

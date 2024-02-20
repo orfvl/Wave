@@ -6,5 +6,6 @@
 /home/oscar/Documents/Informatik/wave/build/graphics/CMakeFiles/stb_image.dir
 /home/oscar/Documents/Informatik/wave/build/graphics/CMakeFiles/resource_manager.dir
 /home/oscar/Documents/Informatik/wave/build/graphics/CMakeFiles/textRenderer.dir
+/home/oscar/Documents/Informatik/wave/build/graphics/CMakeFiles/graphics_manager.dir
 /home/oscar/Documents/Informatik/wave/build/graphics/CMakeFiles/edit_cache.dir
 /home/oscar/Documents/Informatik/wave/build/graphics/CMakeFiles/rebuild_cache.dir

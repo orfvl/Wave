@@ -194,6 +194,19 @@ textRenderer/fast:
 	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/textRenderer.dir/build.make graphics/CMakeFiles/textRenderer.dir/build
 .PHONY : textRenderer/fast
 
+#=============================================================================
+# Target rules for targets named graphics_manager
+
+# Build rule for target.
+graphics_manager: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 graphics_manager
+.PHONY : graphics_manager
+
+# fast build rule for target.
+graphics_manager/fast:
+	$(MAKE) $(MAKESILENT) -f graphics/CMakeFiles/graphics_manager.dir/build.make graphics/CMakeFiles/graphics_manager.dir/build
+.PHONY : graphics_manager/fast
+
 wave.o: wave.cpp.o
 .PHONY : wave.o
 
@@ -227,6 +240,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Wave"
+	@echo "... graphics_manager"
 	@echo "... resource_manager"
 	@echo "... shader"
 	@echo "... stb_image"

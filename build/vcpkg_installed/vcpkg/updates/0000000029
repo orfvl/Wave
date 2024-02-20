@@ -1,7 +1,0 @@
-Package: egl-registry
-Version: 2022-09-20
-Architecture: x64-linux
-Multi-Arch: same
-Abi: f5cff1e84e4ad4ce09a6febb5a0aeb868d5a8a022d326a3193e96cdea8657daf
-Description: the EGL API and Extension Registry
-Status: purge ok not-installed
