@@ -1,4 +1,6 @@
 vcpkg_installed/
+vcpkg/
+vcpkg
 
 ##### Windows
 # Windows thumbnail cache files
