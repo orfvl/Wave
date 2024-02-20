@@ -22,8 +22,6 @@ find_package(OpenGL 3.3 REQUIRED)
 add_executable(Wave wave.cpp)
 
 target_link_libraries(Wave PRIVATE fmt::fmt)
-target_link_libraries(Wave PRIVATE glfw)
-target_link_libraries(Wave PRIVATE GLEW::GLEW)
 target_link_libraries(Wave PRIVATE OpenGL::OpenGL OpenGL::EGL)
 
 add_subdirectory(graphics)

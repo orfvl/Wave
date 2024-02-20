@@ -93,8 +93,6 @@ Wave_EXTERNAL_OBJECTS =
 Wave: CMakeFiles/Wave.dir/wave.cpp.o
 Wave: CMakeFiles/Wave.dir/build.make
 Wave: vcpkg_installed/x64-linux/debug/lib/libfmtd.a
-Wave: vcpkg_installed/x64-linux/debug/lib/libglfw3.a
-Wave: /usr/lib/libGLEW.so
 Wave: /usr/lib/libOpenGL.so
 Wave: /usr/lib/libEGL.so
 Wave: graphics/libgraphics_manager.a
