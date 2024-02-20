@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/oscar/Documents/Informatik/wave/build",
-  "command": "/usr/bin/c++ -g -std=gnu++23 -o CMakeFiles/Wave.dir/wave.cpp.o -c /home/oscar/Documents/Informatik/wave/wave.cpp",
-  "file": "/home/oscar/Documents/Informatik/wave/wave.cpp",
-  "output": "CMakeFiles/Wave.dir/wave.cpp.o"
-}
-]
