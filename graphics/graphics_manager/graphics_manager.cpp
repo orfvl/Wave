@@ -124,5 +124,7 @@ bool GraphicsManager::shoulCloseWindow()
 }
 GraphicsManager::~GraphicsManager()
 {
+     // glfw: terminate, clearing all previously allocated GLFW resources.
+    // ------------------------------------------------------------------
     glfwTerminate();
 }
