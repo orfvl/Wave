@@ -44,9 +44,6 @@ std::vector<Point<T>> generateRandomPoints(std::size_t n)
     return points;
 }
 
-
-
-
 template <typename T> struct fmt::formatter<Point<T>> {
   // Presentation format: 'f' - fixed, 'e' - exponential.
   char presentation = 'f';
